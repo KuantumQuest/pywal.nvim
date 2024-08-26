@@ -12,7 +12,7 @@ function M.setup()
 	-- Configura el resaltado para los números de línea en el contexto Treesitter
 	vim.api.nvim_set_hl(0, "TreesitterContextLineNumber", { fg = colors.color4 })
 	-- Configura el resaltado para el separador si es necesario
-	vim.api.nvim_set_hl(0, "TreesitterContextSeparator", { fg = colors.grey, bg = colors.foreground })
+	vim.api.nvim_set_hl(0, "TreesitterContextSeparator", { fg = colors.color0, bg = colors.foreground })
 	-- Para la última línea del contexto Treesitter
 	vim.api.nvim_set_hl(0, "TreesitterContextBottom", { underline = true, sp = colors.foreground })
 end
